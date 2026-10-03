@@ -107,6 +107,13 @@ button {
   grid-area: coin;
 }
 
+#github {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  right: 2dvw !important;
+}
+
 #paper {
   grid-area: paper;
 }
@@ -140,14 +147,14 @@ button {
   width: 0;
 }
 
-#reset {
+#reset, #github {
   aspect-ratio: 1 / 1;
   background: var(--surface-1);
   border-radius: 50%;
   position: absolute;
-  height: 10dvh;
+  height: 5dvh;
   top: 2dvh;
-  right: 2dvw;
+  right: calc(2dvw + 5dvw);
   z-index: 2;
 
   & > svg {

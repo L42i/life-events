@@ -130,7 +130,7 @@ const TPAPER = document.getElementById('tpaper');
 PAPER.addEventListener('click', () => {
   sound.play(sound.ASSETS.PAPER);
   TPAPER.style.left = (piece.getProgress() * 100) + '%';
-  paper('tpaper', 7.5);
+  paper('tpaper', 400);
 });
 
 const RESET = document.getElementById('reset');
