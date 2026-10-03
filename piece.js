@@ -2,7 +2,7 @@ const PLAYHEAD = document.getElementById('playhead');
 const PERCENT = document.getElementById('percent');
 
 let startTime = null;
-const duration = 3;
+const duration = 300;
 let stopTime = false;
 
 let progress = 0;
