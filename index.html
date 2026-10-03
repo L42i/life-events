@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/2.3.4/p5.min.js"
+            integrity="sha512-zGE8CPs+hefOAOSuF8c8Hbt/DDoL+hsJax12U8UCPomxYkPMf4qhQmJTwSG7KzDjmemumjHFF13pUpouT4Ka1A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer type="module"></script>
+    <title>Life Events</title>
+  </head>
+  <body>
+    <div id="timeline">
+      <div id="playhead"></div>
+      <div id="percent-container">
+<!--        <p id="percent">12:00 AM</p>-->
+        <p id="percent">0.0%</p>
+      </div>
+      <div class="ticon" id="trock"></div>
+      <div class="ticon" id="tpencil"></div>
+      <div class="ticon" id="tcoin"></div>
+      <div class="ticon" id="tstick"></div>
+      <div class="ticon" id="tbell"></div>
+      <div class="ticon" id="tpaper"></div>
+    </div>
+    <button class="sample" id="rock">
+      <span>Desert boulder by Leigh Garland [CC-BY] via Poly Pizza</span>
+    </button>
+    <button class="sample" id="pencil">
+      <span>Pencil by Poly by Google [CC-BY] via Poly Pizza</span>
+    </button>
+    <button class="sample" id="coin">
+      <span>Gold Coin by Zsky [CC-BY] via Poly Pizza</span>
+    </button>
+    <button class="sample" id="stick">
+      <span>Pencil by Poly by Google [CC-BY] via Poly Pizza</span>
+    </button>
+    <button class="sample" id="bell">
+      <span>Bell by Poly by Google [CC-BY] via Poly Pizza</span>
+    </button>
+    <button class="sample" id="paper">
+      <span>Small Stack of Paper by Jarlan Perez [CC-BY] via Poly Pizza</span>
+    </button>
+    <button id="reset">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+           class="icon icon-tabler icons-tabler-outline icon-tabler-refresh">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+        <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+      </svg>
+    </button>
+  </body>
+</html>
